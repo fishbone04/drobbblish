@@ -1,0 +1,92 @@
+/**
+ * @name Drobbblish
+ * @author fishbone04
+ * @version 0.1
+ * @description drobbblish
+ * @source https://github.com/fishbone04/drobbblish
+*/
+div.scroller-1Bvpku{
+	background-color: /*var(--background-primary)*/ #6F3C89;
+}
+div.base-3dtUhz{
+	border-radius: 0 10px 10px 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+div.sidebar-2K8pFh{
+	border-radius: 0 !important;
+}
+nav.guilds-1SWlCJ{
+	border-radius: 10px 0 0 10px;
+	margin-bottom: 10px;
+}
+div.childWrapper-anI2G9, div.circleIconButton-hZmpE8{
+	background-color: #0A0E14 !important;
+}
+#bd-pub-button{
+	color: #6F3C89;
+}
+#bd-pub-button:hover{
+	color: #e0d0ff;
+}
+div.contentRegion-3nDuYy{
+	/*margin: 10px 10px 10px 0;*/
+	border-radius: 0 10px 10px 0;
+}
+div.contentRegion-3nDuYy:before{
+	content: "";
+	width: 1px;
+	height: 100%;
+	background-color: var(--background-tertiary);
+}
+div.contentRegionScroller-26nc1e{
+	background: #0A0E14 !important;
+}
+div.standardSidebarView-3F1I7i, div.bg-h5JY_x, div.layer-3QrUeG{
+	background-color: /*var(--background-tertiary)*/ #6F3C89 !important;
+}
+div.contentRegionScroller-26nc1e{
+	border-radius: 0 10px 10px 0;
+}
+div.sidebarRegion-VFTUkN:before{
+	content: "";
+	width: 100%;
+	background-color: #0A0E14;
+	border-radius: 10px 0 0 10px;
+}
+
+div.sidebarRegionScroller-3MXcoP{
+	background-color: #0A0E14;
+	
+}
+div.standardSidebarView-3F1I7i{
+	margin: 10px;
+	filter: drop-shadow(0 0 5px);
+	border-radius: 10px;
+}
+div.selected-bZ3Lue > div{
+	color: #e0d0ff !important;
+}
+span.item-2hkk8m{
+	background-color: #e0d0ff;
+}
+/*div[aria-label="Minimise"] > svg{
+	display: none;
+}
+div[aria-label="Minimise"]{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	content: url("https://raw.githubusercontent.com/fishbone04/DiscordWindowButtonReplacer/main/mimizediscord.svg");
+}
+div[aria-label="Minimise"] >::content{
+	height: 18px;
+}*/
+/*div.sidebarRegion-VFTUkN{
+	flex: 0 !important;
+}
+div.contentTransitionWrap-3hqOEW, div.contentRegionScroller-26nc1e{
+	display: flex;
+	justify-content: center;
+}
+*/
