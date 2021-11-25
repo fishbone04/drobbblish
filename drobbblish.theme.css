@@ -1,10 +1,11 @@
 /**
- * @name Drobbblish
+ * @name DiscordLogoReplacer
  * @author fishbone04
- * @version 0.1
- * @description drobbblish
- * @source https://github.com/fishbone04/drobbblish
+ * @version 1.1
+ * @description A simple css to replace the disgusting discord logo
+ * @source https://github.com/fishbone04/DiscordLogoReplacer
 */
+
 /*SETTINGS*/
 :root {
 	/*LOGO SETTINGS*/
@@ -174,12 +175,16 @@ main.chatContent-a9vAAp, form.form-2fGMdU, div.layerContainer-yqaFcK{
 div.content-yTz4x3{
 	background-color: #6F3C89;
 }
-main.chatContent-a9vAAp, div.sidebar-2K8pFh > nav, div.scroller-1JbKMe, section.panels-j1Uci_{
-	background-color: #0A0E14;
-	background: #0A0E14;
+main.chatContent-a9vAAp, div.sidebar-2K8pFh > nav, div.scroller-1JbKMe, section.panels-j1Uci_, div.children-19S4PO, .toolbar-1t6TWx{
+	background-color: #0A0E14 !important;
+	background: #0A0E14 !important;
 }
-form.form-2fGMdU:before{
-	content: !important;
+form.form-2fGMdU:before, .children-19S4PO:after{
+	display: none;
+}
+.toolbar-1t6TWx{
+	height: 100%;
+	border-top-right-radius: 10px;
 }
 /*div[aria-label="Minimise"] > svg{
 	display: none;
