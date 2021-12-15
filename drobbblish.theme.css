@@ -254,6 +254,49 @@ div.toolbar-1t6TWx:before{
 	background-color: #0A0E14;
 	border-top-right-radius: 10px;
 }
+section.title-3qD0b- > div.toolbar-1t6TWx > div[aria-label="Inbox"]::before{
+	content: "";
+	background-color: #0A0E14;
+	width: 32px;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	margin-right: 0;
+}
+div[aria-label="Add friends to DM"]::before{
+	content: "";
+	background-color: #0A0E14;
+	width: 34px;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	margin-right: 0;
+	border-top-right-radius: 10px;
+}
+div.toolbar-1t6TWx > a.anchor-3Z-8Bb::before{
+	content: "";
+	background-color: #0A0E14;
+	width: 48px;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	margin-right: 0;
+}
+div.toolbar-1t6TWx > a.anchor-3Z-8Bb > div{
+	z-index: 2;
+}
+div[aria-label="Add friends to DM"] > svg{
+	z-index: 2;
+}
+div[aria-label="Inbox"] > svg {
+	z-index: 2;
+}
+div.toolbar-1t6TWx > a.anchor-3Z-8Bb{
+	background-color: #0A0E14;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
 section.transparent-2ZlE3R > div.toolbar-1t6TWx:before{
 	display: none;
 }
