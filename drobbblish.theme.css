@@ -1,92 +1,53 @@
 /**
- * @name DiscordLogoReplacer
+ * @name Drobbblish
  * @author fishbone04
- * @version 1.1
- * @description A simple css to replace the disgusting discord logo
- * @source https://github.com/fishbone04/DiscordLogoReplacer
+ * @version 0.3
+ * @description A discord theme. Inspired by dribbblish for spicetify
+ * @source https://github.com/fishbone04/drobbblish
 */
 
 /*SETTINGS*/
 :root {
-	/*LOGO SETTINGS*/
-	--logo-color: /*#72767d*/ #e0d0ff;
-	/*DROP SHADOW EX: 1px*/
-	--drop-shadow: false;
-	--drop-shadow-color: blue;
-	/*CHOOSE EITHER TO HAVE --image-url-or-text OR --image-svg-path, DO THIS BY LEAVING THE OTHER EMPTY OR MAKING IT A COMMENT*/
-	--image-url-or-text: url();/*EXAMPLE: --image-url-or-text: "POTATO";*/ /*EXAMPLE: --image-url-or-text: url(imageurlhere);*/
-	--image-svg-path: path("M3.71,3H0V7.21L2.47,9.44V5.36H3.8c.84,0,1.25.42,1.25,1.06V9.54c0,.65-.39,1.09-1.25,1.09H0V13H3.71c2,0,3.86-1,3.86-3.29V6.35C7.57,4,5.7,3,3.71,3ZM23.16,9.72V6.28C23.16,5,25.37,4.75,26,6l2.05-.84a3.68,3.68,0,0,0-3.49-2.3c-2,0-4,1.16-4,3.42V9.72c0,2.27,2,3.42,3.91,3.42a4,4,0,0,0,3.58-2.25l-2.19-1c-.54,1.38-2.78,1-2.78-.16Zm-6.78-3c-.77-.17-1.28-.45-1.31-.93,0-1.16,1.82-1.2,2.86-.09l1.64-1.27a4.05,4.05,0,0,0-3.4-1.6c-1.82,0-3.59,1-3.59,3A3.24,3.24,0,0,0,15.64,9c.81.11,1.72.43,1.69,1-.06,1.08-2.25,1-3.25-.2l-1.57,1.5a4.34,4.34,0,0,0,3.37,1.81c1.82,0,3.85-1.06,3.92-3C19.92,7.69,18.15,7.07,16.38,6.75ZM8.91,13h2.5V3H8.91ZM51.16,3H47.44V7.21l2.47,2.23V5.36h1.32c.84,0,1.26.42,1.26,1.06V9.54c0,.65-.4,1.09-1.26,1.09h-3.8V13h3.71c2,0,3.86-1,3.86-3.29V6.35C55,4,53.14,3,51.16,3ZM32.94,2.86c-2.06,0-4.1,1.13-4.1,3.43V9.71c0,2.29,2.05,3.43,4.12,3.43s4.1-1.14,4.1-3.43V6.29C37.06,4,35,2.86,32.94,2.86Zm1.61,6.85c0,.72-.81,1.08-1.6,1.08s-1.61-.35-1.61-1.08V6.29c0-.74.78-1.13,1.56-1.13s1.65.36,1.65,1.13ZM46.06,6.29C46,3.94,44.42,3,42.37,3h-4V13h2.54V9.82h.45L43.69,13h3.13L44.11,9.56C45.32,9.18,46.06,8.15,46.06,6.29ZM42.42,7.64H40.94V5.36h1.48A1.14,1.14,0,1,1,42.42,7.64Z");	
 	/*purple theme*/
-
+	/*--background: #6F3C89;
+	--foreground: #0A0E14;
+	--buttoncolor: #c76af6;
+	--buttonhover: #e0d0ff;*/
+	/*blue theme*/
+	--background: #203F9F;
+	--foreground: #00071D;
+	--buttoncolor: #4D78FF;
+	--buttonhover: #A6BCFF;
+	/*blackwhite theme*/
+	/*--background: #606060;
+	--foreground: #0B0B0B;
+	--buttoncolor: #CACACA;
+	--buttonhover: #FFFFFF;*/
 }
 
 
 
 
 
-@font-face {
-    	font-family: 'UniSansHeavy';
-    	src: url(https://raw.githubusercontent.com/fishbone04/DiscordLogoReplacer/main/sources/uni-sans.heavy-caps.otf);
-}
-
-
-div.wordmarkWindows-1v0lYD{
-	/*margin-left: 10px;*/
-}
-
-div.wordmarkWindows-1v0lYD:before{
-	content: var(--image-url-or-text);
-	font-size: 14px;
-	font-family: "UniSansHeavy";
-	color: var(--logo-color);
-	filter: drop-shadow(0px 0px var(--drop-shadow) var(--drop-shadow-color));
-	
-}
-div.wordmarkWindows-1v0lYD > svg > g > path:first-child{
-	d: var(--image-svg-path);
-	fill: var(--logo-color);
-	filter: drop-shadow(0px 0px var(--drop-shadow) var(--drop-shadow-color));
-}
-div.wordmarkWindows-1v0lYD > svg > g > path:not(:first-child) {
-	display: none;
-}
 div.scroller-1Bvpku{
-	background-color: /*var(--background-primary)*/ #6F3C89;
-}
-div.base-3dtUhz{
-	/*border-radius: 10px;
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-bottom: 10px;*/
+	background-color: var(--background);
 }
 div.sidebar-2K8pFh{
-	/*margin-left: 10px;*/
-	/*margin-top: 10px;*/
 	margin-bottom: 10px;
 	border-top-left-radius: 10px !important;
 	border-bottom-left-radius: 10px !important;
-	/*box-shadow: 0 0 10px/*, 200px 0 10px*/;
 }
-/*div.sidebar-2K8pFh::after{
-	content: "";
-	height: 100%;
-	width: 10px;
-	position: absolute;
-	left: 245px;
-	box-shadow: 0 0 10px;
-}*/
 div.childWrapper-anI2G9, div.circleIconButton-hZmpE8{
-	background-color: #0A0E14 !important;
-	color: #c76af6;
+	background-color: var(--foreground) !important;
+	color: var(--buttoncolor);
 }
 #bd-pub-button{
-	color: #c76af6;
+	color: var(--buttoncolor);
 }
 #bd-pub-button:hover{
-	color: #e0d0ff;
+	color: var(--buttonhover);
 }
 div.contentRegion-3nDuYy{
-	/*margin: 10px 10px 10px 0;*/
 	border-radius: 0 10px 10px 0;
 }
 div.contentRegion-3nDuYy:before{
@@ -96,10 +57,10 @@ div.contentRegion-3nDuYy:before{
 	background-color: var(--background-tertiary);
 }
 div.contentRegionScroller-26nc1e{
-	background: #0A0E14 !important;
+	background: var(--foreground) !important;
 }
 div.standardSidebarView-3F1I7i, div.bg-h5JY_x, div.layer-3QrUeG{
-	background-color: /*var(--background-tertiary)*/ #6F3C89 !important;
+	background-color: var(--background) !important;
 }
 div.contentRegionScroller-26nc1e{
 	border-radius: 0 10px 10px 0;
@@ -107,106 +68,72 @@ div.contentRegionScroller-26nc1e{
 div.sidebarRegion-VFTUkN:before{
 	content: "";
 	width: 100%;
-	background-color: #0A0E14;
+	background-color: var(--foreground);
 	border-radius: 10px 0 0 10px;
 }
 
 div.sidebarRegionScroller-3MXcoP{
-	background-color: #0A0E14;
+	background-color: var(--foreground);
 	
 }
 div.standardSidebarView-3F1I7i{
 	margin: 0 10px 10px 10px;
-	/*box-shadow: 0 0 10px;*/
 	border-radius: 10px;
 }
 div.selected-bZ3Lue > div{
-	color: #e0d0ff !important;
+	color: var(--buttonhover) !important;
 }
 span.item-2hkk8m{
-	background-color: #e0d0ff;
-}
-section.container-1r6BKw:after{
-	/*content: "";
-	height: 100%;
-	width: 240px;
-	background-color: #6F3C89;*/
+	background-color: var(--buttonhover);
 }
 section.title-3qD0b-{
 	padding-right: 0 !important;
 	padding-left: 0 !important;
-	background: #6F3C89 !important;
-}
-div.content-yTz4x3:before:after{
-	/*content: "";
-	width: 240px;*/
+	background: var(--background) !important;
 }
 div.content-yTz4x3:before{
-	/*margin-right: 240px;*/
 	display: none;
 }
 div.toolbar-1t6TWx{
-	/*border-top-right-radius: 10px;*/
 	background-color: var(--background-primary);
 }
 div.children-19S4PO{
 	background-color: var(--background-primary);
-	/*padding-left: 8px;*/
 	height: 100%;
-	/*box-shadow: 0 0 10px black;*/
 }
 div.title-3qD0b-{
 	left: -10px;
 }
 div.container-2wlB3z{
-	background: #6F3C89 !important;
-	background-color: #6F3C89;
+	background: var(--background) !important;
+	background-color: var(--background);
 }
 div.container-2wlB3z > aside{
-	background: #6F3C89 !important;
-	background-color: #6F3C89;
+	background: var(--background) !important;
+	background-color: var(--background);
 }
 div.members-1998pB, div.members-1998pB > div{
-	background-color: #6F3C89 !important;
-}
-div.container-2lgZY8:before{
-	/*content: "";
-	z-index: 10000;
-	/*height: 1080px;
-	width: 1920px;
-	margin-right: 250px;
-	margin-left: 80px;*/
-	/*position: absolute;
-	user-select: none;
-	pointer-events: none;
-	transform: translatex(82px) translateY(10px);
-	width: calc(100vw - 322px);
-	height: calc(100vh - 42px);
-	border-radius: 10px;
-	box-shadow: 0 0 10px;
-	/*margin: 10px;*/
-	/*background-color: rgba(0, 0, 0, 0);*/
+	background-color: var(--background) !important;
 }
 main.chatContent-a9vAAp, form.form-2fGMdU, div.layerContainer-yqaFcK{
 	border-bottom-right-radius: 10px !important;
 }
 div.content-yTz4x3{
-	background-color: #6F3C89;
+	background-color: var(--background);
 }
 main.chatContent-a9vAAp, div.sidebar-2K8pFh > nav, div.scroller-1JbKMe, section.panels-j1Uci_, div.children-19S4PO, .toolbar-1t6TWx{
-	background-color: #0A0E14 !important;
-	background: #0A0E14 !important;
+	background-color: var(--foreground) !important;
+	background: var(--foreground) !important;
 }
 form.form-2fGMdU:before, .children-19S4PO:after{
 	display: none;
 }
 .toolbar-1t6TWx{
 	height: 100%;
-	/*border-top-right-radius: 10px;*/
-	background-color: #6F3C89!important;
+	background-color: var(--background)!important;
 }
 section.title-3qD0b-{
-	background: #6F3C89;
+	background: var(--background);
 }
 div.iconWrapper-2OrFZ1[aria-label="Hide Member List"]{
 	order: 1;
@@ -223,7 +150,7 @@ div.iconWrapper-2OrFZ1[aria-label="Hide Member List"]:before{
 	height: 100%;
 	position: absolute;
 	right: 0px;
-	background-color: #0A0E14;
+	background-color: var(--foreground);
 	z-index: 0;
 	border-top-right-radius: 10px;
 	user-select: none;
@@ -235,7 +162,7 @@ div.iconWrapper-2OrFZ1[aria-label="Show Member List"]:before{
 	height: 100%;
 	position: absolute;
 	right: 0px;
-	background-color: #0A0E14;
+	background-color: var(--foreground);
 	z-index: 0;
 	border-top-right-radius: 10px;
 	user-select: none;
@@ -251,12 +178,12 @@ div.toolbar-1t6TWx:before{
 	width: 442px;
 	position: absolute;
 	height: 100%;
-	background-color: #0A0E14;
+	background-color: var(--foreground);
 	border-top-right-radius: 10px;
 }
 section.title-3qD0b- > div.toolbar-1t6TWx > div[aria-label="Inbox"]::before{
 	content: "";
-	background-color: #0A0E14;
+	background-color: var(--foreground);
 	width: 32px;
 	height: 100%;
 	position: absolute;
@@ -265,7 +192,7 @@ section.title-3qD0b- > div.toolbar-1t6TWx > div[aria-label="Inbox"]::before{
 }
 div[aria-label="Add friends to DM"]::before{
 	content: "";
-	background-color: #0A0E14;
+	background-color: var(--foreground);
 	width: 34px;
 	height: 100%;
 	position: absolute;
@@ -275,7 +202,7 @@ div[aria-label="Add friends to DM"]::before{
 }
 div.toolbar-1t6TWx > a.anchor-3Z-8Bb::before{
 	content: "";
-	background-color: #0A0E14;
+	background-color: var(--foreground);
 	width: 48px;
 	height: 100%;
 	position: absolute;
@@ -292,7 +219,7 @@ div[aria-label="Inbox"] > svg {
 	z-index: 2;
 }
 div.toolbar-1t6TWx > a.anchor-3Z-8Bb{
-	background-color: #0A0E14;
+	background-color: var(--foreground);
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -316,30 +243,11 @@ div.divider-3FBTu8{
 div.hidden-3iamF5{
 	margin: 0;
 }
-section.title-3qD0b-{
-	/*margin-top: 10px;*/
-}
 div.chat-3bRxxu{
 	background-color: transparent;
-	/*box-shadow: 0 0 10px;*/
-}
-div.root-2CDANf{
-	/*margin-top: 10px;
-	margin-bottom: 10px;
-	background-color: #0A0E14;
-	top: 0;
-	height: 990px;
-}
-div.root-217Brm{
-	background-color: #6F3C89;
-}
-div.videoGridWrapper-2BDlMX{
-	background-color: #0A0E14;
-	height: 100vh;*/
 }
 div.wrapper-2qzCYF{
 	height: calc(100vh - 32px) !important;
-	/*top: 10px;*/
 	margin-right: 10px;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -379,35 +287,12 @@ div.container-1D34oG{
 	border-radius: 0 10px 10px 0;
 }
 div.container-1D34oG > .container-1r6BKw{
-	background-color: #0A0E14;
-}
-section.container-1r6BKw{
-	/*background: #0A0E14 !important;*/
+	background-color: var(--foreground);
 }
 div.tabBody-3YRQ8W, div.container-lRFx4q, div.container-lRFx4q > div > div, div.container-lRFx4q > div > div > div > div, div.container-lRFx4q > div > div > div > div > section{
-	background: #0A0E14 !important;
-	background-color: #0A0E14 !important;
+	background: var(--foreground) !important;
+	background-color: var(--foreground) !important;
 }
 div.popout-103y-5{
-	background-color: #0A0E14!important;
+	background-color: var(--foreground) !important;
 }
-/*div[aria-label="Minimise"] > svg{
-	display: none;
-}
-div[aria-label="Minimise"]{
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	content: url("https://raw.githubusercontent.com/fishbone04/DiscordWindowButtonReplacer/main/mimizediscord.svg");
-}
-div[aria-label="Minimise"] >::content{
-	height: 18px;
-}*/
-/*div.sidebarRegion-VFTUkN{
-	flex: 0 !important;
-}
-div.contentTransitionWrap-3hqOEW, div.contentRegionScroller-26nc1e{
-	display: flex;
-	justify-content: center;
-}
-*/
