@@ -1,7 +1,7 @@
 /**
  * @name Drobbblish
  * @author fishbone04
- * @version 0.3
+ * @version 0.4
  * @description A discord theme. Inspired by dribbblish for spicetify
  * @source https://github.com/fishbone04/drobbblish
 */
@@ -29,15 +29,15 @@
 
 
 
-div.scroller-1Bvpku{
+div.scroller-3X7KbA{
 	background-color: var(--background);
 }
-div.sidebar-2K8pFh{
+div.sidebar-1tnWFu{
 	margin-bottom: 10px;
 	border-top-left-radius: 10px !important;
 	border-bottom-left-radius: 10px !important;
 }
-div.childWrapper-anI2G9, div.circleIconButton-hZmpE8{
+div.childWrapper-1j_1ub, div.circleIconButton-1VxDrg{
 	background-color: var(--foreground) !important;
 	color: var(--buttoncolor);
 }
@@ -47,104 +47,108 @@ div.childWrapper-anI2G9, div.circleIconButton-hZmpE8{
 #bd-pub-button:hover{
 	color: var(--buttonhover);
 }
-div.contentRegion-3nDuYy{
+div.contentRegion-3HkfJJ{
 	border-radius: 0 10px 10px 0;
 }
-div.contentRegion-3nDuYy:before{
+div.contentRegion-3HkfJJ:before{
 	content: "";
 	width: 1px;
 	height: 100%;
 	background-color: var(--background-tertiary);
 }
-div.contentRegionScroller-26nc1e{
+div.contentRegionScroller-2_GT_N{
 	background: var(--foreground) !important;
 }
-div.standardSidebarView-3F1I7i, div.bg-h5JY_x, div.layer-3QrUeG{
+div.standardSidebarView-E9Pc3j, div.bg-1QIAus, div.layer-86YKbF{
 	background-color: var(--background) !important;
 }
-div.contentRegionScroller-26nc1e{
+div.contentRegionScroller-2_GT_N{
 	border-radius: 0 10px 10px 0;
 }
-div.sidebarRegion-VFTUkN:before{
+div.sidebarRegion-1VBisG:before{
 	content: "";
 	width: 100%;
 	background-color: var(--foreground);
 	border-radius: 10px 0 0 10px;
 }
 
-div.sidebarRegionScroller-3MXcoP{
+div.sidebarRegionScroller-FXiQOh{
 	background-color: var(--foreground);
 	
 }
-div.standardSidebarView-3F1I7i{
+div.standardSidebarView-E9Pc3j{
 	margin: 0 10px 10px 10px;
 	border-radius: 10px;
 }
-div.selected-bZ3Lue > div{
+div.selected-1Drb7Z > div{
 	color: var(--buttonhover) !important;
 }
-span.item-2hkk8m{
+span.item-2LIpTv{
 	background-color: var(--buttonhover);
 }
-section.title-3qD0b-{
+section.title-31SJ6t{
 	padding-right: 0 !important;
 	padding-left: 0 !important;
 	background: var(--background) !important;
 }
-div.content-yTz4x3:before{
+div.content-1jQy2l:before{
 	display: none;
 }
-div.toolbar-1t6TWx{
+div.toolbar-3_r2xA{
 	background-color: var(--background-primary);
 }
-div.children-19S4PO{
+div.children-3xh0VB{
 	background-color: var(--background-primary);
 	height: 100%;
 }
-div.title-3qD0b-{
+div.title-31SJ6t{
 	left: -10px;
 }
-div.container-2wlB3z{
+div.container-2o3qEW{
 	background: var(--background) !important;
 	background-color: var(--background);
 }
-div.container-2wlB3z > aside{
+div.container-2o3qEW > aside{
 	background: var(--background) !important;
 	background-color: var(--background);
 }
-div.members-1998pB, div.members-1998pB > div{
+div.members-3WRCEx, div.members-3WRCEx > div{
 	background-color: var(--background) !important;
 }
-main.chatContent-a9vAAp, form.form-2fGMdU, div.layerContainer-yqaFcK{
+main.chatContent-3KubbW, form.form-3gdLxP, div.layerContainer-2v_Sit{
 	border-bottom-right-radius: 10px !important;
 }
-div.content-yTz4x3{
+div.content-1jQy2l{
 	background-color: var(--background);
 }
-main.chatContent-a9vAAp, div.sidebar-2K8pFh > nav, div.scroller-1JbKMe, section.panels-j1Uci_, div.children-19S4PO, .toolbar-1t6TWx{
+main.chatContent-3KubbW, div.sidebar-1tnWFu > nav, div.scroller-kQBbkU, section.panels-3wFtMD, div.children-3xh0VB, .toolbar-3_r2xA{
 	background-color: var(--foreground) !important;
 	background: var(--foreground) !important;
 }
-form.form-2fGMdU:before, .children-19S4PO:after{
+form.form-3gdLxP:before, .children-3xh0VB:after{
 	display: none;
 }
-.toolbar-1t6TWx{
+.toolbar-3_r2xA{
 	height: 100%;
 	background-color: var(--background)!important;
 }
-section.title-3qD0b-{
+section.title-31SJ6t{
 	background: var(--background);
 }
-div.iconWrapper-2OrFZ1[aria-label="Hide Member List"]{
+div.iconWrapper-2awDjA[aria-label="Hide member list"]{
 	order: 1;
 	margin-right: 250px;
 	padding-right: 10px;
 	border-top-right-radius: 10px;
 }
-div.iconWrapper-2OrFZ1[aria-label="Hide Member List"] > svg, div.iconWrapper-2OrFZ1[aria-label="Show Member List"] > svg{
+/*div.toolbar-1t6TWx{
+	display: flex;
+	justify-content: center;
+}*/
+div.iconWrapper-2awDjA[aria-label="Hide member list"] > svg, div.iconWrapper-2awDjA[aria-label="Show Member list"] > svg{
 	z-index: 1;
 }
-div.iconWrapper-2OrFZ1[aria-label="Hide Member List"]:before{
+div.iconWrapper-2awDjA[aria-label="Hide member list"]:before{
 	content: "";
 	width: 59px;
 	height: 100%;
@@ -156,7 +160,7 @@ div.iconWrapper-2OrFZ1[aria-label="Hide Member List"]:before{
 	user-select: none;
 	pointer-events: none;
 }
-div.iconWrapper-2OrFZ1[aria-label="Show Member List"]:before{
+div.iconWrapper-2awDjA[aria-label="Show member List"]:before{
 	content: "";
 	width: 59px;
 	height: 100%;
@@ -168,12 +172,12 @@ div.iconWrapper-2OrFZ1[aria-label="Show Member List"]:before{
 	user-select: none;
 	pointer-events: none;
 }
-div.toolbar-1t6TWx > div{
+div.toolbar-3_r2xA > div{
 	height: 100%;
 	display: flex;
 	align-items: center;
 }
-div.toolbar-1t6TWx:before{
+div.toolbar-3_r2xA::before{
 	content: "";
 	width: 442px;
 	position: absolute;
@@ -181,7 +185,7 @@ div.toolbar-1t6TWx:before{
 	background-color: var(--foreground);
 	border-top-right-radius: 10px;
 }
-section.title-3qD0b- > div.toolbar-1t6TWx > div[aria-label="Inbox"]::before{
+section.title-31SJ6t > div.toolbar-3_r2xA > div[aria-label="Inbox"]::before{
 	content: "";
 	background-color: var(--foreground);
 	width: 32px;
@@ -227,56 +231,56 @@ div.toolbar-1t6TWx > a.anchor-3Z-8Bb{
 section.transparent-2ZlE3R > div.toolbar-1t6TWx:before{
 	display: none;
 }
-div.container-2wlB3z{
+div.container-2o3qEW{
 	z-index: 2;
 	top: -48px;
 	height: 100vh;
 	position: relative;
 }
-section.transparent-2ZlE3R > div, section.transparent-2zlE3R > div.toolbar-1t6TWx::before{
+section.transparent-1lUmft > div, section.transparent-1lUmft > div.toolbar-3_r2xA::before{
 	background-color: transparent!important;
 	background: transparent!important;
 }
-div.divider-3FBTu8{
+div.divider-q3P9HC{
 	display: none !important;
 }
 div.hidden-3iamF5{
 	margin: 0;
 }
-div.chat-3bRxxu{
+div.chat-2ZfjoI{
 	background-color: transparent;
 }
-div.wrapper-2qzCYF{
+div.wrapper-1gVUIN{
 	height: calc(100vh - 32px) !important;
 	margin-right: 10px;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 
 }
-div.fullScreen-1tMzXY{
+div.fullScreen-KhZZcz{
 	height: 100%!important;
 	top: 0 !important;
 	margin-right: 0 !important;
 }
-div.wrapper-2qzCYF > .callContainer-36WRfH{
+div.wrapper-1gVUIN > .callContainer-HtHELf{
 	border-bottom-right-radius: 10px;
 	border-top-right-radius: 10px;
 }
-div.fullScreen-1tMzXY > .callContainer-36WRfH{
+div.fullScreen-KhZZcz > .callContainer-HtHELf{
 	border-bottom-right-radius: 0;
 	border-top-right-radius: 0;
 }
-main.chatContent-a9vAAp{
+main.chatContent-3KubbW{
 	margin-bottom: 10px;
 	margin-right: 10px;
 }
-div.iconWrapper-2OrFZ1[aria-label="Show Member List"]{
+div.iconWrapper-2awDjA[aria-label="Show member list"]{
 	order: 1;
 	margin-right: 10px;
 	padding-right: 10px;
 	border-top-right-radius: 10px;
 }
-div.iconWrapper-2OrFZ1[aria-label="Add friends to DM"]{
+div.iconWrapper-2awDjA[aria-label="Add friends to DM"]{
 	order: 1;
 	margin-right: 10px;
 	padding-right: 10px;
