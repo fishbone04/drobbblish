@@ -1,7 +1,7 @@
 /**
  * @name Drobbblish
  * @author fishbone04
- * @version 0.4
+ * @version 0.5
  * @description A discord theme. Inspired by dribbblish for spicetify
  * @source https://github.com/fishbone04/drobbblish
 */
@@ -86,10 +86,10 @@ div.selected-1Drb7Z > div{
 span.item-2LIpTv{
 	background-color: var(--buttonhover);
 }
-section.title-31SJ6t{
+section.title-31SJ6t, section.container-ZMc96U{
 	padding-right: 0 !important;
 	padding-left: 0 !important;
-	background: var(--background) !important;
+	/*background: var(--background) !important;*/
 }
 div.content-1jQy2l:before{
 	display: none;
@@ -121,7 +121,7 @@ main.chatContent-3KubbW, form.form-3gdLxP, div.layerContainer-2v_Sit{
 div.content-1jQy2l{
 	background-color: var(--background);
 }
-main.chatContent-3KubbW, div.sidebar-1tnWFu > nav, div.scroller-kQBbkU, section.panels-3wFtMD, div.children-3xh0VB, .toolbar-3_r2xA{
+main.chatContent-3KubbW, div.sidebar-1tnWFu > nav, div.scroller-WSmht3, section.panels-3wFtMD, div.children-3xh0VB, .toolbar-3_r2xA{
 	background-color: var(--foreground) !important;
 	background: var(--foreground) !important;
 }
@@ -135,7 +135,7 @@ form.form-3gdLxP:before, .children-3xh0VB:after{
 section.title-31SJ6t{
 	background: var(--background);
 }
-div.iconWrapper-2awDjA[aria-label="Hide member list"]{
+div.iconWrapper-2awDjA[aria-label="Hide Member List"]{
 	order: 1;
 	margin-right: 250px;
 	padding-right: 10px;
@@ -145,10 +145,10 @@ div.iconWrapper-2awDjA[aria-label="Hide member list"]{
 	display: flex;
 	justify-content: center;
 }*/
-div.iconWrapper-2awDjA[aria-label="Hide member list"] > svg, div.iconWrapper-2awDjA[aria-label="Show Member list"] > svg{
+div.iconWrapper-2awDjA[aria-label="Hide Member List"] > svg, div.iconWrapper-2awDjA[aria-label="Show Member List"] > svg{
 	z-index: 1;
 }
-div.iconWrapper-2awDjA[aria-label="Hide member list"]:before{
+div.iconWrapper-2awDjA[aria-label="Hide Member List"]:before{
 	content: "";
 	width: 59px;
 	height: 100%;
@@ -160,7 +160,7 @@ div.iconWrapper-2awDjA[aria-label="Hide member list"]:before{
 	user-select: none;
 	pointer-events: none;
 }
-div.iconWrapper-2awDjA[aria-label="Show member List"]:before{
+div.iconWrapper-2awDjA[aria-label="Show Member List"]:before{
 	content: "";
 	width: 59px;
 	height: 100%;
@@ -179,11 +179,19 @@ div.toolbar-3_r2xA > div{
 }
 div.toolbar-3_r2xA::before{
 	content: "";
-	width: 442px;
+	/*width: 432px;*/
+	width: 402px;
 	position: absolute;
 	height: 100%;
 	background-color: var(--foreground);
 	border-top-right-radius: 10px;
+}
+div.search-39IXmY::before{
+	content: "";
+	width: 260px;
+	position: absolute;
+	height: 100%;
+	background-color: var(--foreground);
 }
 section.title-31SJ6t > div.toolbar-3_r2xA > div[aria-label="Inbox"]::before{
 	content: "";
@@ -194,7 +202,7 @@ section.title-31SJ6t > div.toolbar-3_r2xA > div[aria-label="Inbox"]::before{
 	z-index: 1;
 	margin-right: 0;
 }
-div[aria-label="Add friends to DM"]::before{
+div[aria-label="Add Friends to DM"]::before{
 	content: "";
 	background-color: var(--foreground);
 	width: 34px;
@@ -204,7 +212,7 @@ div[aria-label="Add friends to DM"]::before{
 	margin-right: 0;
 	border-top-right-radius: 10px;
 }
-div.toolbar-1t6TWx > a.anchor-3Z-8Bb::before{
+div.toolbar-3_r2xA > a.anchor-1MIwyf::before{
 	content: "";
 	background-color: var(--foreground);
 	width: 48px;
@@ -213,16 +221,16 @@ div.toolbar-1t6TWx > a.anchor-3Z-8Bb::before{
 	z-index: 1;
 	margin-right: 0;
 }
-div.toolbar-1t6TWx > a.anchor-3Z-8Bb > div{
+div.toolbar-3_r2xA > a.anchor-1MIwyf > div{
 	z-index: 2;
 }
-div[aria-label="Add friends to DM"] > svg{
+div[aria-label="Add Friends to DM"] > svg{
 	z-index: 2;
 }
 div[aria-label="Inbox"] > svg {
 	z-index: 2;
 }
-div.toolbar-1t6TWx > a.anchor-3Z-8Bb{
+div.toolbar-3_r2xA > a.anchor-1MIwyf{
 	background-color: var(--foreground);
 	height: 100%;
 	display: flex;
@@ -231,7 +239,7 @@ div.toolbar-1t6TWx > a.anchor-3Z-8Bb{
 section.transparent-2ZlE3R > div.toolbar-1t6TWx:before{
 	display: none;
 }
-div.container-2o3qEW{
+div.container-2o3qEW, div.membersWrap-3NUR2t{
 	z-index: 2;
 	top: -48px;
 	height: 100vh;
@@ -274,28 +282,32 @@ main.chatContent-3KubbW{
 	margin-bottom: 10px;
 	margin-right: 10px;
 }
-div.iconWrapper-2awDjA[aria-label="Show member list"]{
+div.iconWrapper-2awDjA[aria-label="Show Member List"]{
 	order: 1;
 	margin-right: 10px;
 	padding-right: 10px;
 	border-top-right-radius: 10px;
 }
-div.iconWrapper-2awDjA[aria-label="Add friends to DM"]{
+div.iconWrapper-2awDjA[aria-label="Add Friends to DM"]{
 	order: 1;
 	margin-right: 10px;
 	padding-right: 10px;
 	border-top-right-radius: 10px;
 }
-div.container-1D34oG{
+div.container-2cd8Mz{
 	margin: 0 10px 10px 0;
 	border-radius: 0 10px 10px 0;
 }
-div.container-1D34oG > .container-1r6BKw{
+div.container-2cd8Mz > .title-31SJ6t{
 	background-color: var(--foreground);
 }
-div.tabBody-3YRQ8W, div.container-lRFx4q, div.container-lRFx4q > div > div, div.container-lRFx4q > div > div > div > div, div.container-lRFx4q > div > div > div > div > section{
+div.tabBody-2dgbAs, div.peopleColumn-1wMU14, div.nowPlayingColumn-1eCBCN > div > div, div.nowPlayingColumn-1eCBCN > div > div > div, div.nowPlayingColumn-1eCBCN > div > div > div > div{
 	background: var(--foreground) !important;
 	background-color: var(--foreground) !important;
+}
+div.nowPlayingColumn-1eCBCN > div > div > div > div > div > section{
+	background: var(--background) !important;
+	background-color: var(--background) !important;
 }
 div.popout-103y-5{
 	background-color: var(--foreground) !important;
